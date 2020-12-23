@@ -1,0 +1,15 @@
+.form-container{
+    background: skyblue;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#userName_msg{
+    color: red;
+}
+#email_msg{
+    color: red;
+}
+#password_msg{
+    color: red;
+}
