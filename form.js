@@ -21,11 +21,14 @@ document.getElementById('infoSubmit').onclick = function(){
     {
         document.getElementById('password_msg').innerHTML="*this field is required";
     }
-    else if(!(email.value.includes('$') || email.value.includes('_'))) 
+    else if(!(password.value.includes('$') || password.value.includes('_'))) 
     {
         document.getElementById('password_msg').innerHTML="*atleast one super charachter needed";
     }
 };
     
+
+
+
 
 
